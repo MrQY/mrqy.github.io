@@ -1,15 +1,18 @@
 # This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
-permalink: /:categories/:year/:month/:day/:title 
+permalink: /:categories/:year/:month/:day/:title.html 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: pygments
+
+paginate: 10
+paginate_path: "page:num"
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
 title : Mr.QY
-tagline: Site Tagline
+tagline: QiaoYang's Blog
 author :
   name : Mr.QY
   email : hbuqy@foxmail.com

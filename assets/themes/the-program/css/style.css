@@ -3,6 +3,51 @@ HTML5 display definitions from [HTML5 Boilerplate](http://j.mp/rP0wmY)
 
 No styleguide reference.
 */
+.post-date{
+	float:right;
+	padding:5px;
+	font-size:12px
+}
+.glyphicon {
+position: relative;
+top: 1px;
+display: inline-block;
+font-family: 'Glyphicons Halflings';
+font-style: normal;
+font-weight: 400;
+line-height: 1;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+.glyphicon-time:before {
+content: "\e023";
+}
+
+.pager {
+padding-left: 0;
+margin: 20px 0;
+text-align: center;
+list-style: none;
+}
+.pager li {
+display: inline;
+}
+
+.pager .next>a, .pager .next>span {
+float: right;
+}
+
+.pager li>a, .pager li>span {
+display: inline-block;
+padding: 5px 14px;
+background-color: #fff;
+border: 1px solid #ddd;
+border-radius: 15px;
+color: #428bca;
+text-decoration: none;
+}
+
 article,
 aside,
 details,
