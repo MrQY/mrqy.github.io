@@ -64,8 +64,7 @@ Jekyll 的核心其实是一个文本转换引擎。它的概念其实就是：�
       <td>
         <p>
 
-          你可以加载这些包含部分到你的布局或者文章中以方便重用。可以用这个标签
-          <code>{% include file.ext %}</code>
+          你可以加载这些包含部分到你的布局或者文章中以方便重用。可以用这个标签<code>&#123;% include file.ext %&#125;</code>
           来把文件 <code>_includes/file.ext</code> 包含进来。
 
         </p>
@@ -78,7 +77,7 @@ Jekyll 的核心其实是一个文本转换引擎。它的概念其实就是：�
       <td>
         <p>
           layouts 是包裹在文章外部的模板。布局可以在YAML头信息中根据不同文章进行选择。
-          标签<code>{{ content }}</code>可以将content插入页面中。
+          标签<code>&#123;&#123;content&#125;&#125;</code>可以将content插入页面中。
         </p>
       </td>
     </tr>
