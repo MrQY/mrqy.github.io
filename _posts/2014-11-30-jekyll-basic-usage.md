@@ -7,6 +7,7 @@ tags: [jekyll]
 ---
 {% include JB/setup %}
 安装了 Jekyll 的 Gem 包之后，就可以在命令行中使用 Jekyll 命令了。有以下这些用法： 
+
     $ jekyll build
     # => 当前文件夹中的内容将会生成到 ./_site 文件夹中。
     
