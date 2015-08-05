@@ -8,7 +8,7 @@ tags: [books]
 {% include JB/setup %}
 
 
-#《CLR via C# 第4版》# ![CLR via C#](/images/CLR-via-Csharp.jpg =100*140) 
+#《CLR via C# 第4版》# <img src="/images/CLR-via-Csharp.jpg" width="100px" height="140px" alt="CLR via C#">
 
 
-#《ASP.NET MVC 5 框架揭秘》# ![框架揭秘](/images/aspnet-mvc5.jpg =100*140)
+#《ASP.NET MVC 5 框架揭秘》# <img src="/images/aspnet-mvc5.jpg" width="100px" height="140px" alt="框架揭秘">
