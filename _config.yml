@@ -130,4 +130,7 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
-  
+# Serving
+detach:  false
+port:    8099
+host:    127.0.0.1
